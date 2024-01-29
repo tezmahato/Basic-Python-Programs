@@ -1,0 +1,6 @@
+#Importing Pillow 
+
+from PIL import Image
+im_file="image/a.jpg"
+im= Image.open(im_file)
+im.show()
